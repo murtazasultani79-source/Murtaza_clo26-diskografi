@@ -1,8 +1,8 @@
 # SQL-inlämning — Diskografi
 
-**Namn:** [Ditt namn]  
-**Artist:** [Din valda artist]  
-**Datum:** [Datum]
+**Namn:** [Murtaza]  
+**Artist:** [Aryana sayeed]  
+**Datum:** [2026-10-21]
 
 ---
 
