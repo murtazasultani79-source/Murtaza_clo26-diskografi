@@ -1,7 +1,7 @@
 # Inlämning 1 — Din favoritartists diskografi
 
 **Kurs:** CLO26 — Cloud Developer  
-**Deadline:** Söndag 18 oktober 23:59
+**Deadline:** Onsdag 21 oktober 23:59
 
 ---
 
