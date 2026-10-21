@@ -7,19 +7,20 @@
 
 ## Vad var svårast?
 
-[Det har varit lite svårt ]
+[Det har varit lite svårt i början men efter praktiken och göra några till exampler kunde jag förstå mera och det har varit väldig spännande och rolig frö mig. 
+Jag gillar Sql eftersom jag vill verkligen att jobba med C# i framtiden och jag måste kunna det cokså.]
 
 ---
 
 ## Vad lärde du dig?
 
-[Skriv här]
+[Jag har lärt mig mcyket om hur skaper man table, hur lägger man och ta bort man låter, rader samt skillnaden mellan join och left join, PK,FK och Update och insert, att låter och album och genre ska kommunicera med varandra. Väldig värdefull inlärning om SQL.]
 
 ---
 
 ## Hur använde du SQL i praktiken — vad kändes naturligt och vad var förvirrande?
 
-[Skriv här]
+[I praktiken SQL hj]
 
 ---
 
