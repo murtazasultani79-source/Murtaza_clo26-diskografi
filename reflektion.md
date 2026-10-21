@@ -1,13 +1,13 @@
 # Reflektion — Inlämning 1
 
-**Namn:** [Ditt namn]  
-**Datum:** [Datum]
+**Namn:** [Murtaza Sultani]  
+**Datum:** [2026-10-21]
 
 ---
 
 ## Vad var svårast?
 
-[Skriv här]
+[Det har varit lite svårt ]
 
 ---
 
