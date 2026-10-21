@@ -118,10 +118,15 @@ GROUP BY Albums.album_id, Albums.title
 ORDER BY Albums.release_year ASC;
 
 --- query 4: Längsta låten ---
-
+SELECT title, duration_seconds
+FROM Songs
+ORDER BY duration_seconds DESC
+LIMIT 1;
 
 --- query 5: Alla låtar sorterade alfabetiskt ---
-
+SELECT title, duration_seconds
+FROM Songs
+ORDER BY title ASC;
 ```
 
 ---
