@@ -7,7 +7,8 @@
 ---
 
 > Lägg länk till eller bild på ditt ER-diagram här:
-> `[ER-diagram](er_diagram.png)`
+> `[ER-diagram](<img width="718" height="1040" alt="Murtaza_ER_Diagram drawio" src="https://github.com/user-attachments/assets/db368805-4c9d-4fec-bd26-2c474178fdfb" />
+)`
 
 ---
 
