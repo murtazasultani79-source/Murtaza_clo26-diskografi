@@ -135,7 +135,8 @@ ORDER BY title ASC;
 
 ```sql 
 --- lägg till ett nytt album eller en ny låt ---
-
+INSERT INTO Songs (album_id, title, duration_seconds)
+VALUES (4, 'campuslåt för SQL', 180);
 ```
 
 ---
@@ -144,7 +145,8 @@ ORDER BY title ASC;
 
 ```sql
 --- ta bort en rad ur valfri tabell ---
-
+DELETE FROM Songs
+WHERE title = 'campuslåt uppdaterad';
 ```
 
 ---
@@ -153,7 +155,9 @@ ORDER BY title ASC;
 
 ```sql
 --- uppdatera minst en rad i valfri tabell ---
-
+UPDATE Songs
+SET title = 'campuslåt uppdaterad'
+WHERE title = 'campuslåt för SQL';
 ```
 
 ---
@@ -162,11 +166,27 @@ ORDER BY title ASC;
 
 ```sql
 --- query 6: Snittlängd på låtar per album ---
-
+SELECT Albums.title,
+       AVG(Songs.duration_seconds) AS AverageDurationSeconds
+FROM Albums
+JOIN Songs ON Albums.album_id = Songs.album_id
+GROUP BY Albums.album_id, Albums.title;
 
 --- query 7: Albumet med flest låtar ---
-
+SELECT Albums.title,
+       COUNT(Songs.song_id) AS SongCount
+FROM Albums
+JOIN Songs ON Albums.album_id = Songs.album_id
+GROUP BY Albums.album_id, Albums.title
+ORDER BY SongCount DESC
+LIMIT 1;
 
 --- query 8: Alla låtar längre än 4 minuter (240 sekunder), med albumtitel ---
-
+SELECT Songs.title AS Lat,
+       Songs.duration_seconds AS LangdSekunder,
+       Albums.title AS Album
+FROM Songs
+JOIN Albums ON Songs.album_id = Albums.album_id
+WHERE Songs.duration_seconds > 240
+ORDER BY Songs.duration_seconds DESC;
 ```
